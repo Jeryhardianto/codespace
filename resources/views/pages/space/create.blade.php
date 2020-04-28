@@ -6,7 +6,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Submit My Space</div>
+                <div class="card-header">Submit My Space Test1</div>
 
                 <div class="card-body">
                  {!! Form::open(['route' => 'space.store', 'method' => 'post', 'files' => true]) !!}
