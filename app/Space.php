@@ -8,7 +8,7 @@ class Space extends Model
 {
     protected $guarded = [];
 
-    public function photo()
+    public function photos()
     {
         return $this->hasMany(SpacePhoto::class, 'space_id', 'id');
     }
